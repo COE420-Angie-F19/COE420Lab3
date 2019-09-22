@@ -11,6 +11,9 @@ package coe420lab3;
  */
 public class COE420Lab3 {
 
+    public void addFeatureB(){
+        System.out.println("Feature B");
+    }
     /**
      * @param args the command line arguments
      */
@@ -18,6 +21,7 @@ public class COE420Lab3 {
         // TODO code application logic here
         
         System.out.println("Hello World!");
+        
         
     }
     

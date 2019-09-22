@@ -1,0 +1,70 @@
+1 Introduction
+System Requirements Document (SRD) for the Eval One Alarm System
+
+1.1 Purpose of the Document
+
+This document is the System Requirements Document (SRD) for the Eval One Security System (EOSS), from this point forward referred to as "the system".
+
+1.2 Scope of the System
+
+The system will be able to be turned on or off by an authorised user, detect intruders, initiate an alarm, contact external security authorities in the event of an alarm and allow an authorised user to disable an initiated alarm. The users, intruders and security authorities are considered external actors to the system.
+
+1.3 Definitions Acronyms, and Abbreviations
+EOSS - Eval One Security System
+
+1.4 References
+COE 420 Tutorial handout.
+
+2 General Descriptions
+
+2.1 System Description
+The system is intended as a small scale security solution that will be able to detect intruders and sound an alarm while contacting external security authorities of the intrusion. 
+
+2.2  Intended Use
+The system is intended to be used by a limited number of authorised users such as small business owners/managers. The system is intended to be installed so that intruders can be detected throughout the area to be monitored.
+
+3 Specific Requirements
+
+3.1 Functional Requirements
+
+3.1.1 User Authorisation
+
+The system shall check that a user is authorised before the user can operate the system.
+
+3.1.2 System Activation/Deactivation
+
+The system shall be able to be activated or deactivated by an authorised user.
+
+3.1.3 Intruder Detection
+The system, while activated, shall be able to detect intruders in the area monitored by the system.
+
+3.1.4 Alarm Initiation
+
+The system shall initiate an alarm if an intruder is detected.
+
+3.1.5 External Security Authority Notification
+
+The system shall be able to notify an external security authority if the alarm is initiated.
+
+3.2 Interface Requirements
+
+3.2.1 User Interface
+
+The user shall be able to enter an authorisation code into the system. blah
+The user shall be able to activate or deactivate the system.
+
+3.2.2 Compatibility with Environment of Intended Use
+
+The system shall be able to be installed in the area to be monitored so that any intruders in the area can be detected.
+
+The system shall be able to be installed so that the user interface is accessible by authorised users.
+
+The system shall be able to be installed so that the alarm can be heard throughout the area to be monitored.
+
+3.2.3 External Security Authority
+
+The system shall be able to send a one-way communication to an external security authority to notify the authority of an initiated alarm.
+
+4 Diagrams 
+
+5 OLE Objects

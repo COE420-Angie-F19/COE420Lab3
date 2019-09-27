@@ -12,7 +12,7 @@ package coe420lab3;
 public class COE420Lab3 {
 
     public void addFeatureB(){
-        System.out.println("Feature B");
+        System.out.println("Feature B edited");
     }
     /**
      * @param args the command line arguments
